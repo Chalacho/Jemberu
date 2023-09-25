@@ -1,0 +1,408 @@
+<html>
+  <head>
+    <title>
+      
+    </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body{
+      margin:0px;
+      padding:0px;
+    }
+    a{
+      text-decoration:none;
+      font-weight:bold;
+    color:#191966;
+    }
+    a:hover{
+      font-weight:600;
+  color:#0099cc;
+    }
+      .header{
+        display:flex;
+        font-family:Arial;
+        justify-content:space-between;
+        align-items:center;
+        overflow:hidden;
+     border-bottom:2px solid #4d4d4d;
+      }
+
+      .title-text{
+          color:#191966;
+          font-weight:bold;
+          padding-left:10px;
+      }
+      .title-text span{
+       color:#0099cc; 
+      }
+      .header ul{
+        list-style:none;
+        display:flex;
+        
+      }
+            .header ul li{
+            padding:10px 30px;
+            }
+            .body-text{
+              font-size:34px;
+              font-weight:900;
+              padding-left:50px;
+              padding-top:60px;
+            
+            }
+         .body-cont   p{
+              color:#0099cc;
+              margin:0;
+            }
+       .body-text p:nth-child(odd){
+              color:#191966;
+            }
+            .body-cont{
+              display:flex;
+              justify-content:space-between;
+              box-shadow:3px 4px 7px 7px #d1d1d1;
+              max-width:800px;
+              margin:50px;
+              padding:40px;
+            
+            }
+            img{
+              width:300px;
+              height:300px;
+              padding:3px 10px;
+              border-radius:50%;
+            }
+            .about{
+              background-image:url(./about.jpg);
+            
+              background-size:cover;
+              background-position:center;
+      
+                    width:700px;
+              height:400px;
+                    
+            }
+            .about p{
+              color:#fff;
+
+              font-size:12px;
+            background: linear-gradient(#f1f1,#000);
+        font-weight:bold;
+      text-shadow:2px 2px 2px #004d99;
+                    width:370px;
+              height:390px;
+            padding:5px;
+              
+              border-radius:5px;
+            }
+            .head-text{
+
+              font-size:18px;
+              font-weight:900;
+              color:#0099cc;
+            }
+            .contact-text{
+                      
+                            font-size:18px;
+                
+              font-weight:900;
+              color:#0099cc;
+            }
+      .contact-sub {
+                          
+              padding:5px;
+              text-align:;
+            }
+                  .contact-sub p{
+           display:inline-block;
+              padding:14px;
+                  font-style:italic;
+               
+              color:#c4c4c4;   }
+                                .contact-sub p i{
+                            color:#191966;
+                            font-size:15px;
+                       padding-right:10px;
+
+                                }
+    
+            .mores{
+              display:block;
+            }
+            .cop{
+              
+                  color:#4d4d4d;        position:absolute;
+                  font-size:12px;
+                  left:100;
+                  top:61%;
+                  text-align:left;
+                  :100px;
+                  
+                  font-style:italic;
+              font-weight:500;
+            }
+            
+
+            #btn{
+              display:none;
+              color:#fff;
+              background:#0080ff;
+        box-shadow: 2px 2px 2px #000;
+        cursor:pointer;
+        border:none;
+            border-radius:50%;
+            width:40px;
+            text-align:center;
+            height:40px;
+            margin:10px;
+              font-weight:900;
+     font-size:30px;
+     margin-left:120px;
+            }
+         
+
+      
+                                .social-media{
+           position:absolute;
+             left:500;
+        
+            
+                   list-style:none;
+                       }
+         .social-media a{
+          
+           margin:10px;
+         }
+         .social-media a i{
+           font-size:30px;
+      color:#fff;
+        
+         }
+          
+            @media screen and (max-width:760px){
+                  
+                              .cop{
+              
+                          position:absolute;
+                
+                  left:70;
+                top:152%;
+                              }
+                          .contact-text{
+              
+                          }
+                            .head-text{
+        
+              font-size:18px;
+              font-weight:900;
+              color:#0099cc;
+            }
+            .contact-text{
+                            font-size:18px;
+                  padding-left:50px;
+              font-weight:900;
+              color:#0099cc;
+            }
+                
+                       .social-media{
+           display:flex;
+           justify-content:space-around;
+      position:absolute;
+      left:20;
+          top:120%;
+                   
+                       }
+                      
+                          .about{
+                      width:280px;
+              height:300px;
+                     
+                     
+                          }
+                                   .about p{
+                                         width:100%;
+              height:290px;     
+                                   }
+                       
+                                      .mores{
+              display:none;
+            }
+            .veiw{
+            display:inline-block;
+          
+            }
+              
+                          #btn{
+              color:#fff;
+              background:#0080ff;
+        box-shadow: 2px 2px 2px #000;
+        cursor:pointer;
+        border:none;
+            border-radius:50%;
+            width:40px;
+            text-align:center;
+            height:40px;
+            margin:10px;
+              font-weight:900;
+     font-size:30px;
+     display:inline-block;
+     margin-left:160px;}
+                  .header .menu{
+                display:block;
+             background:#f1f1f9;
+             position:absolute;
+             width:92%;
+             transition:0.8s;
+                       height:0;
+                       top:55;
+                       margin-left:10px;
+                       padding:0;
+                    overflow:hidden;
+                       left:0;
+                          }
+                        .header .show{
+                          color:red;
+                                   height:200px;
+                        }              .body-cont{
+                       padding:5px;                 margin:7px;
+                      width:289px;              display:inline-block;
+         
+            }
+                          img{
+              width:200px;
+              height:200px;
+              padding:3px 10px;
+              border-radius:50%;
+            }
+    .container{
+      padding:2px 20px;
+    }
+    
+        .bar1, .bar2, .bar3 {
+    width:25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+ .body-text{
+                padding-left:10px;
+              padding-top:30px;
+  padding:left:4}
+
+}
+
+/* This is to rotate first bar */ 
+
+.change .bar1 {
+ -webkit-transform: rotate(-45deg)
+ translate(-9px, 6px) ;
+ transform: rotate(-45deg)
+ translate(-5px, 3px) ;
+}
+
+
+/* This is to fade out second bar */ 
+
+.change .bar2 {opacity: 0;}
+
+
+/* This is to rotate last bar */ 
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg)
+  translate(-8px, -8px) ;
+  transform: rotate(45deg)
+  translate(-8px, -8px) ;
+}
+
+        
+              
+            }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h3 class="title-text">
+        Jem<span>beru</span></h3>
+        <div class="menu-icon">
+
+<div class="container"
+onclick="myFunction(this)">
+
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+
+</div>   </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+
+function myFunction(x) {
+  var m=document.getElementsByClassName("menu")[0];
+      m.classList.toggle("show");
+    x.classList.toggle("change");
+    
+}
+
+</script> 
+    <div class="body-cont" id="home">
+    <div class="body-text">
+     <p>I Build Custom</p>
+<p>Website Solutions</p>
+<p>That Help Your</p>
+<p>Business Grow</p> 
+    </div>
+    <div class="body-img">
+      <img src="pr.jpg">
+    </div>
+    
+    </div>
+        <div class="body-cont">
+          <div class="about">
+
+            <p>
+                      
+            <span class="head-text" id="about">About me</span> <br>I am Jemberu Elias, a graduate of Computer Science from Wachemo University. With a strong educational background in computer science,<span class="mores" id="more"> I bring a strong technical foundation to my work. I specialize in front-end development, using languages like HTML, CSS, and JavaScript to create engaging user interfaces. I strive to create websites that not only look great but also provide seamless user experiences. Let's collaborate and bring your online vision to life!
+</span><br>
+                          <button id="btn"   onclick="fun()">+</button> <span class="social-media">  <a href="https://www.facebook.com/jamberu.elias">   <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/jeb_eli93546">   <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+        <a href="https://www.t.me/J_one_day">   <i class="fa fa-telegram" aria-hidden="true"></i></a>
+       <a href="#">    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+         </sapn>  </p>
+
+      
+        </div>
+    </div>
+    <div class="body-cont" id="contact">
+                  <span class="contact-text">Contact</span>
+                  <div class="contact-sub">
+<p class="first-i"><i class="fa fa-mobile" aria-hidden="true"></i>0926327137</p>
+<p><i class="fa fa-envelope-o" aria-hidden="true"></i>elijeb9@gmail.com</p>
+          </div>
+      
+                <h4 class="cop">&copy;2023 Jemberu Elias. All rights reserved.</h4>  
+</div>
+ 
+    </div>
+    <script>
+      function fun(){
+       var button=document.getElementById("btn");
+        if(button.innerHTML==="+"){
+         button.innerHTML="-";
+        }
+                else{
+         button.innerHTML="+";
+        }
+      document.getElementById("more").classList.toggle("veiw");
+    
+      }
+    </script>
+  </body>
+</html>
